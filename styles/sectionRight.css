@@ -1,0 +1,233 @@
+#secRight {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 25px;
+    min-height: 100%;
+    overflow-y: auto;
+
+    scrollbar-color: red;
+}
+
+#secRight .location-map {
+    font-size: 14px;
+    color: #171717;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+#secRight .location {
+   font-size: 16px;
+   font-weight: 600;
+   color: #171717;
+   opacity: 0.5;
+}
+
+#secRight .item-title {
+    max-width: 445px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #171717;
+}
+
+#secRight .item-details {
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+}
+
+#secRight .item-details img {
+    margin-right: 5px;
+}
+
+#secRight .item-details span:nth-of-type(2){
+    margin: 0 15px; /*span central*/
+}
+
+#secRight .item-description {
+    margin-top: 23px;
+    font-size: 16px;
+    color: #171717;
+    opacity: 0.5;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+#secRight .item-size-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.6);
+}
+
+#secRight .item-sizes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 450px;
+    padding-top: 15px;
+}
+
+#secRight .item-sizes a {
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 120px;
+    height: 55px;
+    border-radius: 10px;
+
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+    color: #8B8B8B;
+    font-weight: 500;
+    text-decoration: none;
+
+    transition: all 0.3s ease-in-out;
+}
+
+#secRight .item-sizes a:hover {
+    background: #c0c0c0;
+    color: #fff;
+}
+
+#secRight .actions {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+#secRight .actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    outline: none;
+
+    border-radius: 10px;
+    cursor: pointer;
+    height: 60px;
+    font-size: 14px;
+}
+
+#secRight .actions button:first-of-type {
+    width: 273px;
+    background: #026cb6;
+    color: #fff;
+    margin-right: 7px;
+
+}
+
+#secRight .actions button:first-of-type img {
+    margin-top: -2px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+#secRight .actions button:nth-of-type(2) {
+
+    width: 225px;
+    background: #bfdaed;
+    color: #026cb6;
+    font-weight: 600;
+}
+
+#secRight .actions button:nth-of-type(2) img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+#secRight .item-ship-title {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+}
+
+#secRight .form-group-ship {
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    max-width: 420px;
+}
+
+#secRight .form-group-ship .description-ship {
+    color: rgba(0,0,0,0.4);
+    font-weight: 500;
+}
+
+#secRight .form-group-ship .form-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 10px;
+    height: 45px;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#secRight .form-group-ship .form-group:hover,
+#secRight .form-group-ship .form-group:hover input {
+    background: #f4f4f4;
+}
+
+#secRight .form-group-ship .form-group:focus-within{
+    border: 1px solid #026cb6;
+}
+
+#secRight .form-group-ship .form-group:focus-within button {
+    border-left: 1px solid #026cb6;
+}
+
+#secRight .form-group-ship .form-group input {
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 15px;
+}
+
+#secRight .form-group-ship .form-group button {
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 10px;
+
+    background: rgba(0,0,0,0.15);
+    color: #026cb6;
+    font-weight: 600;
+    font-size: 12px;
+
+    width: 100px;
+    min-width: 100px;
+
+    cursor: pointer;
+}
+
+#secRight .form-group-ship .info-cep {
+    font-size: 14px;
+    text-decoration: none;
+    color: #026cb6;
+    font-weight: 500;
+}
+
+@media (max-width: 1100px) {
+    #secRight {
+        height: calc(100vh - 500px);
+    }
+}
+
+@media (max-width: 600px) {
+
+    #secRight .item-title {
+        font-size: 30px;
+    }
+
+    #secRight .actions {
+        flex-wrap: wrap;
+    }
+
+}

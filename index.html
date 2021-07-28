@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Luã Álvaro - Nike Card</title>
+</head>
+
+<body>
+
+    <div id="card">
+
+        <section id="secLeft">
+
+            <header id="miniatures">
+
+                <img src="./assets/airmax/nike-1.png" alt="nike-1" width="70px" height="70px" />
+                <img src="./assets/airmax/nike-2.png" alt="nike-2" width="70px" height="70px" />
+                <img src="./assets/airmax/nike-4.png" alt="nike-4" width="70px" height="70px" />
+
+                <img src="./assets/airmax/nike-3.png" alt="nike-3" width="70px" height="70px" />
+                <img src="./assets/airmax/nike-5.png" alt="nike-5" width="70px" height="70px" />
+                <img src="./assets/airmax/nike-6.png" alt="nike-6" width="70px" height="70px" />
+
+            </header>
+
+            <div id="arrowLeft" class="arrowLeft">
+                <img src="./assets/icons/seta-carrosel-anterior.svg" alt="seta-anterior" />
+            </div>
+
+            <div id="slide" class="slide">
+                <img class="slideImg" src="./assets/airmax/nike-1.png" alt="nike-1" width="500px" height="500px" />
+                <img class="slideImg" src="./assets/airmax/nike-2.png" alt="nike-2" width="500px" height="500px" />
+                <img class="slideImg" src="./assets/airmax/nike-3.png" alt="nike-3" width="500px" height="500px" />
+                <img class="slideImg" src="./assets/airmax/nike-4.png" alt="nike-4" width="500px" height="500px" />
+                <img class="slideImg" src="./assets/airmax/nike-5.png" alt="nike-5" width="500px" height="500px" />
+                <img class="slideImg" src="./assets/airmax/nike-6.png" alt="nike-6" width="500px" height="500px" />
+            </div>
+
+            <div id="arrowRight" class="arrowRight">
+                <img src="./assets/icons/seta-carrosel-proximo.svg" alt="seta-anterior" />
+            </div>
+
+            <button class="video-action">
+                Vídeo de demonstração
+                <img src="./assets/icons/seta-link.svg" alt="seta">
+            </button>
+
+        </section>
+
+        <section id="secRight">
+
+            <p class="location-map">Calçados / Masculino / Esportes / <b>Casual</b></p>
+
+            <span class="location">CASUAL</span>
+
+            <h1 class="item-title">Tênis Nike Air Max 2090 Masculino</h1>
+
+            <div class="item-details">
+                <span>
+                    <img src="./assets/icons/icon-numero-1.svg" alt="numero 1">
+                    55148
+                </span>
+
+                <span>
+                    <img src="./assets/icons/icon-numero-2.svg" alt="numero 2">
+                    AP0900
+                </span>
+
+                <span>
+                    <img src="./assets/icons/icon-avaliação.svg" alt="avaliação">
+                </span>
+            </div>
+
+            <p class="item-description">
+                Traga o passado para o futuro com o Nike Air Max 2090. Inspirado no icônico Air Max 90, o 2090 conta
+                com o amortecimento Nike Air debaixo do pé, que proporciona conforto inigualável, enquanto a tela
+                transparente na parte de cima se mistura com as características atemporais do OG para um look moderno e
+                ousado.
+            </p>
+
+            <span class="item-size-title">TAMANHO</span>
+
+            <div class="item-sizes">
+                <a href="#">37</a>
+                <a href="#">38</a>
+                <a href="#">39</a>
+                <a href="#">40</a>
+                <a href="#">41</a>
+                <a href="#">42</a>
+                <a href="#">43</a>
+                <a href="#">44</a>
+                <a href="#">45</a>
+            </div>
+
+            <div class="actions">
+                <button>
+                    <img src="./assets/icons/icon carrinho.svg" alt="carrinho">
+                    ADICIONAR AO CARRINHO
+                </button>
+                <button>
+                    <img src="./assets/icons/icon-desejos.svg" alt="">
+                    + LISTA DE DESEJOS
+                </button>
+            </div>
+
+            <label for="frete" class="item-ship-title">CALCULAR FRETE E ENTREGA</label>
+            <div class="form-group-ship">
+                <p class="description-ship">Calcule o frete e o prazo de entrega estimados para sua região, Informe seu
+                    CEP:</p>
+                <div class="form-group">
+                    <input id="frete" type="text" placeholder="CEP">
+                    <button>CALCULAR</button>
+                </div>
+                <a href="#" class="info-cep">Não sei meu CEP</a>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="./scripts/controller.js"></script>
+</body>
+
+</html>
